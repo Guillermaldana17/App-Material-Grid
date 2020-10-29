@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container'
 import Administration from '../Admin/Administration'
 import AdministrationBody from '../Admin/AdministrationBody'
+import BreakpointUp from '../Admin/BreakpointUp'
 const Home =()=>{
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,6 +36,7 @@ return(
           <AdministrationBody />
         </Grid>
       </Grid>
+      <BreakpointUp/>
       </Container>
      
     </>
